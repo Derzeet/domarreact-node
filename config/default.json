@@ -1,0 +1,5 @@
+{
+  "port": 5009,
+  "mongoUri": "mongodb+srv://domarAdmin:12345passwor@cluster.tbh3x.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "jwtSecret": "complex1000tg"
+}
