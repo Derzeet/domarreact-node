@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.fc {
+    padding-left: 23rem;
+    padding-right: 12rem;
+}
+
+.fc-header-toolbar.fc-toolbar {
+    height: 60px;
+    background-color: #1A1A1A;
+    margin-top: -60px;
+    margin-left: -200px;
+}
+
+.fc-toolbar-title {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px !important;
+    line-height: 53px;
+    color: #FFFFFF;
+
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.fc .fc-toolbar.fc-header-toolbar {
+    margin-bottom: 0;
+}
+.fc-today-button.fc-button.fc-button-primary {
+    opacity: 1;
+    position: absolute;
+    left: 380px;
+    top: 20px;
+    /*transform: translate(-100%);*/
+    background-color: #1A1A1A;
+    padding: 0;
+    outline: #1A1A1A;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #747474;
+    cursor: pointer;
+}
+.fc-today-button.fc-button.fc-button-primary:hover {
+    color: #5e5e5e;
+}
+.fc-today-button.fc-button.fc-button-primary::first-letter {
+    text-transform: capitalize;
+}
+.fc-button-group {
+    position: absolute;
+}
+.fc-prev-button.fc-button.fc-button-primary{
+    position: absolute;
+    left: -1580%;
+    background-color: #1A1A1A;
+    opacity: 1;
+}
+.fc-next-button.fc-button.fc-button-primary {
+    left: -800%;
+    background-color: #1A1A1A;
+    opacity: 1;
+}
+.fc-icon.fc-icon-chevron-left {
+    outline: none;
+}
+
+
+
+
+.fc-scrollgrid.fc-scrollgrid-liquid {
+    /*margin-top: 8rem;*/
+}
+.fc-view-harness.fc-view-harness-active {
+    width: 800px;
+    outline: none  !important;
+    height: 700px !important;
+}
+.fc-scroller.fc-scroller-liquid-absolute {
+    overflow: hidden !important;
+}
+.fc-scrollgrid-sync-table {
+    width: 800px !important;
+    height: 700px !important;
+}
+section {
+    justify-content: space-between;
+}
+
+.fc-scrollgrid-section.fc-scrollgrid-section-header {
+    display: none;
+}
+#fc-dom-172 {
+    display: none;
+}
+.fc-daygrid-day-number {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 26.7179px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #D9D9D9;
+    cursor: pointer;
+}
+.fc-daygrid-day-number:hover {
+    color: #525252;
+    transition: all ease 0.3s;
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+    background-color: rgba(255, 220, 40, 0.15);
+    background-color: rgba(63, 63, 63, 0);
+}
+.fc-day-today a {
+    font-style: normal;
+    font-weight: 500;
+}
+
+.fc-daygrid-body {
+    width: 800px !important;}
+
+.fc-daygrid-body .fc-daygrid-body-unbalanced {
+    width: 1000px !important;
+}

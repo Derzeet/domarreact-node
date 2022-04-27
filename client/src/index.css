@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+  background-color: #1F1F1F;
+}
+/** {*/
+/*    outline: red 1px solid;*/
+/*}*/
+
+#navbar {
+  background-color: #1A1A1A;
+  height: 60px;
+}
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 7%;
+  position: absolute;
+  right: 340px;
+  z-index: 2;
+}
+.today {
+  display: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  margin-top: 23px ;
+  color: #747474;
+  cursor: pointer;
+  text-decoration: none;
+}
+.today:hover {
+  color: #5e5e5e;
+}
+.date {
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  color: #FFFFFF;
+  margin-left: -90px;
+  margin-top: 23px ;
+  display: none;
+}
+div i {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+div i:hover {
+  color: #5e5e5e;
+  transition: all ease 0.2s;
+}
+
+.review {
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+}
